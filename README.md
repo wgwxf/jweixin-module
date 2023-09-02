@@ -1,25 +1,26 @@
-# jweixin-module
+# jweixin-module-fix
 
-微信JS-SDK
+forked from zhetengbiji/jweixin-module 微信JS-SDK
+修复checkJsApi JSON.parse BUG
 
 ## 安装
 
 ### NPM
 
 ```shell
-npm install jweixin-module --save
+npm install jweixin-module-fix --save
 ```
 
 ### UMD
 
 ```http
-https://unpkg.com/jweixin-module/lib/index.js
+https://unpkg.com/jweixin-module-fix/lib/index.js
 ```
 
 ## 使用
 
 ```js
-var jweixin = require('jweixin-module')
+var jweixin = require('jweixin-module-fix')
 jweixin.ready(function(){
     // TODO
 });
